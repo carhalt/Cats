@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naked Cats</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container">
+    <h1>Therapeutic Naked Cat Indexing Program</h1>
+<h2>Here at Naked Cat Industries, we realized that naked cats were the perfect therapy animals,
+    considering they were hypoallergenic, and they are so ugly that it is soothing to tiny children.
+    This program is for new hiree naked cats, adding or firing them from current hospital contracts.
+</h2>
+    <br>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-hospital-name" >New Hospital Contract</label>
+                        <input type="text" class="form-control" id="new-hospital-name">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button id="new-hospital" class="btn btn-primary form-control" style="background-color: black;">Create</button>
+            </div>
+        </div>
+    </div><br>
+
+    <div id="hospitals"></div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
